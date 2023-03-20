@@ -17,7 +17,7 @@ table 50100 "CSD Subscription"
         }
         field(3; "Item No."; Code[20])
         {
-            Caption = 'Name';
+            Caption = 'Item No.';
             DataClassification = CustomerContent;
             TableRelation = Item;
         }
